@@ -1,0 +1,27 @@
+{
+  "name": "xhr-js",
+  "version": "1.0.0",
+  "description": "Probando XMLHttpRequest con JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivandevp/xhr-js-jquery.git"
+  },
+  "keywords": [
+    "js",
+    "xhr",
+    "json"
+  ],
+  "author": "Ivan Medina <ivan@laboratoria.la>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivandevp/xhr-js-jquery/issues"
+  },
+  "homepage": "https://github.com/ivandevp/xhr-js-jquery#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
