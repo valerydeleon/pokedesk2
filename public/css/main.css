@@ -1,0 +1,29 @@
+body{
+  background-color: #fff;
+}
+
+.contenedor{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenedorPokemon{
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: none;
+  border: solid 3px black;
+  padding-top: 10px;
+}
+
+.img-pokemon{
+  height: 100%;
+  width: 130px;
+}

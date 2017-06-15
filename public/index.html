@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <!-- Estilos Propios -->
+	<link rel="stylesheet" href="../css/main.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta charset="UTF-8">
 	<title>AJAX, JSON y APIs</title>
 </head>
 <body>
+
+	<header class="container-fluid">
+		<nav class="row">
+	    <div class="nav-wrapper col s12">
+				<div class="col s4">
+					<a href="#" class="brand-logo">Pokedesk</a>
+				</div>
+				<div class="right input-field col s4">
+            <input id="search" type="search" placeholder="Busca tu Pokemon" />
+            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+        </div>
+	    </div>
+		</nav>
+	</header>
+
+  <section>
+
+  </section>
+
+	<section id="contenedorPokemones">
+
+  		<!-- <div id="pokemon" class="contenedorPokemon">
+  				<img class="img-pokemon" src="../assets/img/bulbasaur.png" alt="bulbasaur">
+  				<div id="contNombre">
+            <h4 id="nombrePokemon">Bulbasaur</h4>
+  				</div>
+  		</div> -->
+
+	</section>
+
 	<ul id="pokemons"></ul>
+
+
 	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="./js/app.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="js/app.js"></script>
+
+	<!-- Estilos Propios -->
+
 </body>
 </html>
